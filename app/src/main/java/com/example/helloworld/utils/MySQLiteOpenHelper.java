@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -62,7 +61,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
     private void createUsers(SQLiteDatabase db){
         for(int i = 0 ; i < 20; i++) {
-            insertUser(ImageAPI.names[i], ImageAPI.apis[i], 0, db);
+            insertUser(DataSet.names[i], DataSet.apis[i], 0, db);
         }
     }
 

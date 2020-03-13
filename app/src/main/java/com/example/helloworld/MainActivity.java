@@ -1,18 +1,15 @@
 package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.PagerSnapHelper;
 
-import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
-import com.example.helloworld.ui.InfoFragment;
 import com.example.helloworld.ui.MainFragment;
 import com.example.helloworld.ui.SingleInfoFragment;
 import com.example.helloworld.utils.MySQLiteOpenHelper;
-import com.example.helloworld.R;
+
 
 
 public class MainActivity extends AppCompatActivity {

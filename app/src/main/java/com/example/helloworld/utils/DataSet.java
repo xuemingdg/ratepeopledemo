@@ -1,6 +1,6 @@
 package com.example.helloworld.utils;
 
-public class ImageAPI {
+public class DataSet {
 
     public static final String[] apis = {
             "https://bj-mc-prod-asset.oss-cn-beijing.aliyuncs.com/mc-official/images/comparing/left_pic_two.jpg",
